@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.2</PackageVersion>
+        <Title>Option classes for C#</Title>
+        <Description>A package containing an Option&lt;T&gt; class that functions like a Haskell Maybe type</Description>
+        <PackageTags>Option Some None Maybe</PackageTags>
+    </PropertyGroup>
+
+</Project>
