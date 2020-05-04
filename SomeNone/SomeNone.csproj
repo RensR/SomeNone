@@ -7,6 +7,8 @@
         <Title>Option classes for C#</Title>
         <Description>A package containing an Option&lt;T&gt; class that functions like a Haskell Maybe type</Description>
         <PackageTags>Option Some None Maybe</PackageTags>
+        <Authors>Rens Rooimans</Authors>
+        <RepositoryUrl>https://github.com/RensR/SomeNone</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
