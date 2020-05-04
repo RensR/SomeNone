@@ -1,14 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.2</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
         <Title>Option classes for C#</Title>
-        <Description>A package containing an Option&lt;T&gt; class that functions like a Haskell Maybe type</Description>
-        <PackageTags>Option Some None Maybe</PackageTags>
+        <Description>A package containing an Option&lt;T&gt; class that functions like a Haskell Maybe type. It is meant to replace certain instances where null is normally used. </Description>
+        <PackageTags>Option Some None Maybe null</PackageTags>
         <Authors>Rens Rooimans</Authors>
         <RepositoryUrl>https://github.com/RensR/SomeNone</RepositoryUrl>
+        <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1</TargetFrameworks>
+        <PackageProjectUrl>https://github.com/RensR/SomeNone</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <AssemblyVersion>1.0.3</AssemblyVersion>
+        <FileVersion>1.0.3</FileVersion>
     </PropertyGroup>
 
 </Project>
