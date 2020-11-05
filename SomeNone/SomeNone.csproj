@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <Title>Option classes for C#</Title>
         <Description>A package containing an Option&lt;T&gt; class that functions like a Haskell Maybe type. It is meant to replace certain instances where null is normally used. </Description>
         <PackageTags>Option Some None Maybe null</PackageTags>
@@ -11,8 +11,8 @@
         <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1</TargetFrameworks>
         <PackageProjectUrl>https://github.com/RensR/SomeNone</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <AssemblyVersion>1.0.3</AssemblyVersion>
-        <FileVersion>1.0.3</FileVersion>
+        <AssemblyVersion>1.0.4</AssemblyVersion>
+        <FileVersion>1.0.4</FileVersion>
     </PropertyGroup>
 
 </Project>

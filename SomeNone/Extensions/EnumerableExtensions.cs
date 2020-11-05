@@ -14,6 +14,15 @@ namespace SomeNone.Extensions
         public static Option<T> FirstOrNone<T>(
             this IEnumerable<T> sequence, Func<T, bool> predicate) =>
             sequence.Where(predicate).FirstOrNone();
+        
+        public static Option<T> LastOrNone<T>(this IEnumerable<T> sequence) =>
+            sequence.Select(x => (Option<T>)new Some<T>(x))
+                .DefaultIfEmpty(None.Value)
+                .Last();
+
+        public static Option<T> LastOrNone<T>(
+            this IEnumerable<T> sequence, Func<T, bool> predicate) =>
+            sequence.Where(predicate).LastOrNone();
 
         public static IEnumerable<TResult> SelectOptional<T, TResult>(
             this IEnumerable<T> sequence, Func<T, Option<TResult>> map) =>
